@@ -1,6 +1,7 @@
 /* Navigation Bar Element */
 
 #navigation-bar {
+    z-index: 10;
     box-shadow: 0px 3px 10px 0px rgba(37,41,52,0.75);
     -moz-box-shadow: 0px 3px 10px 0px rgba(37,41,52,0.75);
     -webkit-box-shadow: 0px 3px 10px 0px rgba(37,41,52,0.75);
@@ -78,4 +79,26 @@
 
     /* Top Border, Div Is Flipped */
     border-top: 5px white solid;
+}
+
+/* Mobile Styles */
+
+@media screen and (max-width: 500px) {
+    #navigation-bar-logo {
+        height: 100px;    
+    }
+    
+    #navigation-bar-logo img {
+        height: 60px;
+        border-radius: 5px;
+        border: 2px white solid;
+    }
+
+    #title-word-container {
+        font-size: 1em;
+    }
+
+    .navigation-bar-background {
+        height: 50px;
+    }
 }
