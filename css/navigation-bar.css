@@ -1,0 +1,81 @@
+/* Navigation Bar Element */
+
+#navigation-bar {
+    box-shadow: 0px 3px 10px 0px rgba(37,41,52,0.75);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(37,41,52,0.75);
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(37,41,52,0.75);
+}
+
+.navigation-bar-background {
+    width: 100vw;
+    height: 150px;
+    position: relative;
+}
+
+#navigation-bar-logo {
+    height: 300px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#navigation-bar-logo img {
+    height: 125px;
+    border-radius: 25px;
+    border: 5px white solid;
+    box-shadow: 0px 3px 5px 0px rgba(37,41,52,0.5);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(37,41,52,0.5);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(37,41,52,0.5);
+}
+
+#title-word-container {
+    color: white;
+    font-size: 1.75em;
+    margin-left: 0.8em;
+    line-height: 1.5em;
+    font-family: "Pixel", sans-serif;
+    text-shadow: 3px 3px rgba(37,41,52,0.5);
+}
+
+#title-word-container span {
+    display: block;
+}
+
+#title-first-word {
+    letter-spacing: 1px;
+}
+
+#title-second-word {
+    letter-spacing: 2px;
+}
+
+/* Special Background */
+
+.flip-background {
+    transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+#background-1 {
+    background-size: contain;
+    background-color: #0083ED;
+    background-position: center;
+    background-repeat: repeat no-repeat;
+    background-image: url("/assets/sky-layer-1.png");
+}
+
+#background-2 {
+    background-size: contain;
+    background-color: #0083ED;
+    background-position: center;
+    background-repeat: repeat no-repeat;
+    background-image: url("/assets/sky-layer-1.png");
+
+    /* Top Border, Div Is Flipped */
+    border-top: 5px white solid;
+}
