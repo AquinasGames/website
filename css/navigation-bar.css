@@ -9,12 +9,12 @@
 
 .navigation-bar-background {
     width: 100vw;
-    height: 100px;
+    height: 125px;
     position: relative;
 }
 
 #navigation-bar-logo {
-    height: 200px;
+    height: 250px;
     display: flex;
     position: absolute;
     align-items: center;
@@ -50,6 +50,27 @@
 
 #title-second-word {
     letter-spacing: 2px;
+}
+
+#navigation-bar-links {
+    display: flex;
+    padding: 0.7em;
+    color: #0083ED;
+    justify-content: space-evenly;
+    border-bottom: 5px solid white;
+    font-family: 'Pixel', sans-serif;
+}
+
+#navigation-bar-links a {
+    color: inherit;
+    font-size: 1em;
+    text-decoration: none;
+    text-shadow: 1px 1px rgba(37,41,52,0.5);
+}
+
+#navigation-bar-links a:hover,
+#navigation-bar-links a:active {
+    color: #97653B;
 }
 
 /* Special Background */
@@ -100,5 +121,9 @@
 
     .navigation-bar-background {
         height: 50px;
+    }
+
+    #navigation-bar-links a {
+        font-size: 0.7em;
     }
 }
