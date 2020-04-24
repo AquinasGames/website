@@ -17,6 +17,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-watch
+  - jekyll-admin
 
 jekyll_admin:
   hidden_links:
