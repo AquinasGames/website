@@ -29,11 +29,23 @@ html {
   text-shadow: 1px 1px rgba(37,41,52,0.75);
 }
 
-#page-content p {
+#page-content p,
+#page-content li {
   color: #535C4B;
   font-weight: 500;
   line-height: 1.5em;
   text-align: justify;
   font-family: 'Fira Sans', sans-serif;
   text-shadow: 1px 1px rgba(37,41,52,0.1);
+}
+
+#page-content a {
+  color: #0083ED;
+  text-decoration: none;
+  text-shadow: 1px 1px rgba(37,41,52,0.1);
+}
+
+#page-content a:hover,
+#page-content a:active {
+  color: #97653B;
 }
