@@ -55,8 +55,10 @@
 #navigation-bar-links {
     display: flex;
     padding: 0.7em;
+    margin: 0 auto;
     color: #0083ED;
-    justify-content: space-evenly;
+    max-width: 800px;
+    justify-content: space-between;
     border-bottom: 5px solid white;
     font-family: 'Pixel', sans-serif;
 }
@@ -65,7 +67,7 @@
     color: inherit;
     font-size: 1em;
     text-decoration: none;
-    text-shadow: 1px 1px rgba(37,41,52,0.5);
+    text-shadow: 1px 1px rgba(37,41,52,0.75);
 }
 
 #navigation-bar-links a:hover,

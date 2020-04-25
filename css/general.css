@@ -8,3 +8,22 @@
 html {
   scroll-behavior: smooth;
 }
+
+#page-content {
+  padding: 1em;
+  max-width: 800px;
+  margin: 1em auto;
+}
+
+#page-content h3 {
+  color: #0083ED;
+  font-family: 'Pixel', sans-serif;
+  text-shadow: 1px 1px rgba(37,41,52,0.75);
+}
+
+#page-content p {
+  color: #535C4B;
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+  text-shadow: 1px 1px rgba(37,41,52,0.1);
+}
