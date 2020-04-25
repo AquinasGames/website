@@ -15,6 +15,14 @@ html {
   margin: 1em auto;
 }
 
+#page-content div {
+  margin-bottom: 2em;
+}
+
+#page-content div:last-of-type {
+  margin-bottom: 1em;
+}
+
 #page-content h3 {
   color: #0083ED;
   font-family: 'Pixel', sans-serif;
@@ -24,6 +32,8 @@ html {
 #page-content p {
   color: #535C4B;
   font-weight: 500;
+  line-height: 1.5em;
+  text-align: justify;
   font-family: 'Fira Sans', sans-serif;
   text-shadow: 1px 1px rgba(37,41,52,0.1);
 }
