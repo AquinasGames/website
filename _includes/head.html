@@ -9,17 +9,18 @@
     <meta name="title" content="{{ site.title }}">
     <meta property="og:url" content="{{ site.url }}"/>
     <meta property="og:title" content="{{ site.title }}">
+    <meta name="keywords" content="{{ site.keywords }}"/>
     <meta name="description" content="{{ site.description }}">
+    <meta property="og:keywords" content="{{ site.keywords }}"/>
     <meta property="og:description" content="{{ site.description }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="{{ site.url }}/assets/logo.png"/>
     <link rel="shortcut icon" type="image/png" href="{{ site.url }}/assets/favicon.png"/>
-    
-    <!-- TODO -->
-    <meta property="og:image" content=""/>
-    
-    <meta name="keywords" content="{{ site.keywords }}"/>
-    <meta property="og:keywords" content="{{ site.keywords }}"/>
 
+    <!-- All JS Scripts -->
+    <script src="{{ site.url }}/js/scripts.js"></script> 
+
+    <!-- All CSS Stylesheets -->
     <link rel="stylesheet" href="{{ site.url }}/css/games.css">
     <link rel="stylesheet" href="{{ site.url }}/css/fonts.css">
     <link rel="stylesheet" href="{{ site.url }}/css/footer.css">
