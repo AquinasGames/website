@@ -29,12 +29,15 @@ html {
   text-shadow: 1px 1px rgba(37,41,52,0.75);
 }
 
+#page-content p {
+  text-align: justify;
+}
+
 #page-content p,
 #page-content li {
   color: #535C4B;
   font-weight: 500;
   line-height: 1.5em;
-  text-align: justify;
   font-family: 'Fira Sans', sans-serif;
   text-shadow: 1px 1px rgba(37,41,52,0.1);
 }
@@ -48,4 +51,27 @@ html {
 #page-content a:hover,
 #page-content a:active {
   color: #97653B;
+}
+
+@media screen and (max-width: 500px) {
+  #page-content {
+    margin: 0 auto;
+  }
+
+  #games-list-container {
+    display: block;
+  }
+
+  #games-list-container img {
+    max-width: calc(100vw - 2.5em);
+  }
+
+  #games-list-container a {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+
+  #games-list-container a:last-of-type {
+    margin-bottom: 0;
+  }
 }
