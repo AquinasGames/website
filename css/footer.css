@@ -35,6 +35,10 @@
         width: calc(100% - 2em);
     }
     
+    #footer p:first-of-type {
+        margin-top: 0em;
+    }
+
     #footer a {
         margin: 0 0.5em;
     }
