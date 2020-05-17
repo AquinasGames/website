@@ -14,11 +14,14 @@
 }
 
 #navigation-bar-logo {
+    width: 800px;
     height: 140px;
     display: flex;
+    margin: 0 auto;
     position: absolute;
     align-items: center;
     justify-content: center;
+    justify-content: space-between;
     top: 0; left: 0; bottom: 0; right: 0;
 }
 
