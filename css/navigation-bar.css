@@ -14,10 +14,10 @@
 }
 
 #navigation-bar-logo {
-    width: 800px;
     height: 140px;
     display: flex;
     margin: 0 auto;
+    max-width: 800px;
     position: absolute;
     align-items: center;
     justify-content: center;
@@ -111,6 +111,7 @@
 
     #navigation-bar-logo {
         height: 80px;    
+        padding: 0 1em;
     }
     
     #navigation-bar-logo img {
