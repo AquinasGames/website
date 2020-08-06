@@ -48,6 +48,16 @@
     display: block;
 }
 
+#title-word-container span a {
+    color: white;
+    text-decoration: none;
+}
+
+#title-word-container span a:hover,
+#title-word-container span a:active {
+    color: #97653B;
+}
+
 #navigation-bar-links {
     display: flex;
     padding: 0.7em;
