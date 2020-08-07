@@ -7,3 +7,10 @@ $ ./build
 
 The `build.sh` script will automatically launch the website locally on port 8000. 
 You can call Jekyll manually if you want to define any custom parameters such as ports.
+
+---
+
+External dependencies and tools include:
+
+- [Getform](https://getform.io/) for contact forms and dynamic communication between users and staff
+- [Google reCAPTCHA](https://www.google.com/recaptcha) for preventing spam on contact fields and forms

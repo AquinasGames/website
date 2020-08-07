@@ -1,0 +1,41 @@
+/* Styles for Contact Form Page */
+
+#contact-form-buttons {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#contact-form {
+    display: block;
+    max-width: 800px;
+    font-size: 0.7em;
+    font-family: 'Pixel', sans-serif;
+}
+
+#contact-form input {
+    display: block;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 1em;
+    color: #535C4B;
+    margin: 0 auto 1.5em auto;
+    
+    /* Prevent Padding From Element Size */
+    box-sizing:border-box;
+}
+
+#contact-form button {
+    padding: 1em;
+    display: block;
+    color: #0083ED;
+    text-shadow: 1px 1px rgba(37,41,52,0.5);
+}
+
+#contact-form button:hover {
+    cursor: pointer;
+}

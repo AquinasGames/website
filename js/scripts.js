@@ -10,6 +10,13 @@ function isScrolledIntoView(el) {
     return isVisible;
 }
 
+grecaptcha.ready(function() {
+    grecaptcha.execute('6Lcd5bsZAAAAAD8jOi_RJa6bAyv6wKw24Ym3Usx2', {action: 'homepage'})
+    .then(function(token) {
+        document.getElementById('captchaResponse').value = token;
+    });
+});
+
 $(window).scroll(function () {
     console.log($(window).scrollTop())
     if (isScrolledIntoView($('#navigation-bar-links'))) {
