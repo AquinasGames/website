@@ -18,6 +18,10 @@
     display: block;
 }
 
+#contact-form textarea {
+    line-height: 1.5em;
+}
+
 #contact-form input,
 #contact-form textarea {
     width: 100%;
