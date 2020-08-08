@@ -32,6 +32,7 @@
 @media screen and (max-width: 500px) {
     #footer {
         display: block;
+        padding-top: 1em;
         text-align: center;
         width: calc(100% - 2em);
     }

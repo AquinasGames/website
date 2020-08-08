@@ -43,3 +43,10 @@
 #contact-form button:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width: 500px) {
+    #contact-form button {
+        /* Space Between Buttons On Small Screens */
+        max-width: calc(50vw - 2em - 1em);
+    }
+}
