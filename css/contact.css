@@ -10,8 +10,8 @@
 #contact-form {
     display: block;
     max-width: 800px;
-    font-size: 0.55em;
-    font-family: 'Pixel', sans-serif;
+    font-size: 1em;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 #contact-form input {
@@ -25,17 +25,17 @@
 #contact-form input,
 #contact-form textarea {
     width: 100%;
-    padding: 1em;
+    padding: 0.25em;
     color: #535C4B;
-    margin: 0 auto 1.5em auto;
+    margin: 0 auto 1em auto;
     
     /* Prevent Padding From Element Size */
     box-sizing:border-box;
 }
 
 #contact-form button {
-    padding: 1em;
     display: block;
+    padding: 0.25em;
     color: #0083ED;
     text-shadow: 1px 1px rgba(37,41,52,0.5);
 }

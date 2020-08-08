@@ -1,0 +1,33 @@
+/* Blog Styles */
+
+.postInformation {
+    color: #535C4B;
+    font-weight: 500;
+    line-height: 1.5em;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.post-title, .post-date {
+    text-shadow: 1px 1px rgba(37,41,52,0.1);
+}
+
+.post-title {
+    margin: 0 1em;
+}
+
+.post-tag {
+    float: right;
+    padding: 0 1em;
+    border-radius: 5px;
+    border: 1px #0083ED solid;
+    box-shadow: 0px 3px 5px 0px rgba(37,41,52,0.1);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(37,41,52,0.1);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(37,41,52,0.1);
+}
+
+
+/* Unique Tag Colours */
+
+.General {
+    background-color: yellow;
+}
