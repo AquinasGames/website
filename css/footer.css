@@ -6,8 +6,8 @@
     display: flex;
     margin: 0 auto;
     font-weight: 500;
-    font-size: 0.9em;
     max-width: 800px;
+    font-size: 0.85em;
     justify-content: space-between;
     border-top: 1px dotted #0083ED;
     font-family: 'Fira Sans', sans-serif;
@@ -16,8 +16,12 @@
 
 #footer a {
     color: #0083ED;
+    text-align: center;
     align-self: center;
     text-decoration: none;
+
+    /* Creates 2 Rows In Flex Container */
+    width: calc(800px / 6);
 }
 
 #footer a:hover,
@@ -27,6 +31,15 @@
 
 #footer p {
     color: #535C4B;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+#footer-site-links {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 @media screen and (max-width: 500px) {
