@@ -10,26 +10,6 @@ You can call Jekyll manually if you want to define any custom parameters such as
 
 ---
 
-Blog posts are formatted like so:
-
-```markdown
----
-title: Test Post
-layout: posts
-tags: General
-permalink: /blog/test-post
----
-
-This is a summary paragraph for the post.
-
-## This is a Heading
-
-This is content for the section of the page.
-```
-
-CSS styles were styled with this format in mind. Other configurations may disrupt the visuals.
-
----
 
 External dependencies and tools include:
 

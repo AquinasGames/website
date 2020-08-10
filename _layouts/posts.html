@@ -5,8 +5,11 @@
         {% include navigation-bar.html %}
         <div id="page-content">
             <h1>{{ page.title }}</h1>
-            <span class="current-post-title">Posted on {{ page.date }}</span><br>
-            <span class="current-post-subtitle">Filed under {{ page.tags }}</span>
+            <div class="current-post-metadata">
+                <span class="current-post-title">Posted on {{ page.date }} // </span>
+                <span class="current-post-subtitle">Filed under {{ page.tags }} // </span>
+                <span class="current-post-author">Written by {{ page.author }}</span>
+            </div>
             {{ content }}
         </div>
         {% include footer.html %}

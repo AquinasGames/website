@@ -29,6 +29,7 @@ hr {
 
 #page-content h3 {
   color: #0083ED;
+  line-height: 1.5em;
   font-family: 'Pixel', sans-serif;
   text-shadow: 1px 1px rgba(37,41,52,0.75);
 }
