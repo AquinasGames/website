@@ -20,8 +20,8 @@
     align-self: center;
     text-decoration: none;
 
-    /* Creates 2 Rows In Flex Container */
-    width: calc(800px / 6);
+    /* Renders 2 Rows */
+    width: calc(800px / 7);
 }
 
 #footer a:hover,
