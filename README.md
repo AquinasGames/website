@@ -15,3 +15,5 @@ External dependencies and tools include:
 
 - [Getform](https://getform.io/) for contact forms and dynamic communication between users and staff
 - [Google reCAPTCHA](https://www.google.com/recaptcha) for preventing spam on contact fields and forms
+
+All other assets have been created in-house. 
