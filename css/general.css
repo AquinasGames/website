@@ -77,6 +77,18 @@ hr {
   padding-top: 0;
 }
 
+.photo-gallery {
+  display: flex;
+  padding-left: 0;
+  flex-wrap: wrap;
+}
+
+.photo-gallery li {
+  padding-left: 0;
+  list-style: none;
+  /* flex-basis: 33.333333% */
+}
+
 @media screen and (max-width: 500px) {
   #page-content {
     margin: 0 auto;

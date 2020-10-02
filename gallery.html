@@ -1,6 +1,13 @@
 ---
 title: Gallery | Aquinas Games
 layout: main
+images:
+  - image_path: /assets/games/project-twinstick/teaser-1.png
+    title: Project Twinstick Teaser Image 1
 ---
 
-<h3>Gallery</h3>
+<ul class="photo-gallery">
+    {% for image in page.images %}
+        <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
+    {% endfor %}
+</ul>
