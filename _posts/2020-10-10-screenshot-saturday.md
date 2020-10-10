@@ -1,5 +1,5 @@
 ---
-title: Screenshot Saturday (10-10-2020) Project Twinstick
+title: Screenshot Saturday&#58;10-10-2020)
 small: Project Twinstick 10/10/2020
 layout: screenshot-saturday
 tags: Screenshot
