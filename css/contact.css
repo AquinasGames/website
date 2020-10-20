@@ -25,7 +25,6 @@
 #contact-form input,
 #contact-form textarea {
     width: 100%;
-    padding: 0.25em;
     color: #535C4B;
     margin: 0 auto 1em auto;
     
@@ -33,11 +32,19 @@
     box-sizing:border-box;
 }
 
+#contact-form input {
+    padding: 0.25em;
+}
+
+#contact-form textarea {
+    resize: none;
+    padding: 0.5em;
+}
+
 #contact-form button {
     display: block;
     padding: 0.25em;
     color: #0083ED;
-    text-shadow: 1px 1px rgba(37,41,52,0.5);
 }
 
 #contact-form button:hover {
