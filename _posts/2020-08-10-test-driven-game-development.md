@@ -33,6 +33,7 @@ Finally, consider logging all important actions. Add a DEBUG flag and flip it wh
 The following tools and frameworks can help you and your team structure and write excellent tests:
 
 - [GUT Godot Unit Test](https://github.com/bitwes/Gut), unit testing tool for the Godot engine
+
 - [WAT Automated Testing](https://github.com/CodeDarigan/WAT), automated testing plugin for the Godot engine
 
 We did not go over specifics in this article because the GUT and WAT docs are quite extensive.
