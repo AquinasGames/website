@@ -33,12 +33,16 @@
 }
 
 #contact-form input {
-    padding: 0.25em;
+    padding: 0.5em;
+    border-style:solid; 
+    border-radius: .25em;
 }
 
 #contact-form textarea {
     resize: none;
     padding: 0.5em;
+    border-style:solid; 
+    border-radius: .25em;
 }
 
 #contact-form button {
