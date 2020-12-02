@@ -34,15 +34,15 @@
 
 #contact-form input {
     padding: 0.5em;
-    border-style:solid; 
     border-radius: .25em;
+    border: 1px solid #888;
 }
 
 #contact-form textarea {
     resize: none;
     padding: 0.5em;
-    border-style:solid; 
     border-radius: .25em;
+    border: 1px solid #888;
 }
 
 #contact-form button {
