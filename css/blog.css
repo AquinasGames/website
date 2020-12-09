@@ -68,6 +68,10 @@
         float: none;
         margin: 0 auto;
     }
+
+    ul {
+        padding-left: 0em;
+    }
     
 }
 

@@ -12,9 +12,11 @@ Writing clean and maintainable code often follows well-defined practices for str
 
 ### Strategies for Test Driven Game Development
 
-- Modularizing components for ease of testing and refactoring
-- Write tests for each complete scene to maximize test coverage
-- Understandable logging and error reporting for interactions between components
+- • Modularizing components for ease of testing and refactoring
+
+- • Write tests for each complete scene to maximize test coverage
+
+- • Understandable logging and error reporting for interactions between components
 
 ### Modularizing Components
 
@@ -30,11 +32,11 @@ Finally, consider logging all important actions. Add a DEBUG flag and flip it wh
 
 ### Godot-Specific Testing Tools
 
-The following tools and frameworks can help you and your team structure and write excellent tests:
+The following tools and frameworks can help you structure and write excellent tests:
 
-- [GUT Godot Unit Test](https://github.com/bitwes/Gut), unit testing tool for the Godot engine
+- • [GUT Godot Unit Test](https://github.com/bitwes/Gut), unit testing tool for the Godot engine
 
-- [WAT Automated Testing](https://github.com/CodeDarigan/WAT), automated testing plugin for the Godot engine
+- • [WAT Automated Testing](https://github.com/CodeDarigan/WAT), automated testing plugin for the Godot engine
 
 We did not go over specifics in this article because the GUT and WAT docs are quite extensive.
 Please refer to them for specific examples and quick-start guides.
