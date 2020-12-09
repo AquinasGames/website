@@ -9,12 +9,12 @@
 
 .navigation-bar-background {
     width: 100vw;
-    height: 40px;
+    height: 30px;
     position: relative;
 }
 
 #navigation-bar-logo {
-    height: 80px;
+    height: 60px;
     display: flex;
     margin: 0 auto;
     max-width: 800px;
@@ -37,7 +37,7 @@
 #title-word-container {
     color: white;
     margin: 0 auto;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     line-height: 1.5em;
     font-family: "Pixel", sans-serif;
@@ -63,7 +63,7 @@
     padding: 0.7em;
     margin: 0 auto;
     color: #0083ED;
-    max-width: 800px;
+    max-width: 700px;
     justify-content: space-between;
     border-bottom: 5px solid white;
     font-family: 'Pixel', sans-serif;
@@ -71,7 +71,7 @@
 
 #navigation-bar-links a {
     color: inherit;
-    font-size: 0.8em;
+    font-size: 0.75em;
     text-decoration: none;
     text-shadow: 1px 1px rgba(37,41,52,0.5);
 }

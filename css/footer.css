@@ -6,7 +6,7 @@
     display: flex;
     margin: 0 auto;
     font-weight: 500;
-    max-width: 800px;
+    max-width: 700px;
     font-size: 0.85em;
     justify-content: space-between;
     border-top: 1px dotted #0083ED;
@@ -31,14 +31,14 @@
 
 #footer p {
     color: #535C4B;
-    line-height: 1.5em;
+    line-height: 2em;
     text-align: center;
 }
 
 #footer-site-links {
     width: 100%;
-    display: flex;
     flex-wrap: wrap;
+    display: inline-flex;
     justify-content: space-evenly;
 }
 
