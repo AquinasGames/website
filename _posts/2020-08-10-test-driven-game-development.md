@@ -1,5 +1,5 @@
 ---
-title: Test Driven Game Development Tips
+title: Test Driven Game Development
 layout: posts
 tags: Development
 author: Michael Bassili
