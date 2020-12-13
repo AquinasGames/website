@@ -84,6 +84,10 @@
     font-family: 'Fira Sans', sans-serif !important;
 }
 
+#mc-embedded-subscribe:hover {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 500px) {
     #contact-form button {
         /* Space Between Buttons On Small Screens */
