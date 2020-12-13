@@ -45,13 +45,15 @@
     border: 1px solid #888;
 }
 
-#contact-form button {
+#contact-form button,
+#contact-form-buttonsbutton {
     display: block;
     padding: 0.25em;
     color: #0083ED;
 }
 
-#contact-form button:hover {
+#contact-form button:hover,
+#contact-form-buttons button:hover {
     cursor: pointer;
 }
 
@@ -76,8 +78,19 @@
     font-family: 'Fira Sans', sans-serif !important;
 }
 
+#mailchimp {
+    display: flex;
+    justify-content: space-between;
+}
+
+#mailchimp button {
+    font-size: 1em !important;
+    padding: 0.25em !important;
+    color: #0083ED !important;
+    font-family: 'Fira Sans', sans-serif !important;
+}
+
 #mc-embedded-subscribe {
-    display: block !important;
     padding: 0.25em !important;
     color: #0083ED !important;
     font-size: 1.15em !important;
