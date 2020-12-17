@@ -92,7 +92,7 @@
 
 #mc-embedded-subscribe {
     height: 100%;
-    padding: 0.25em !important;
+    padding: 0.25em 1em !important;
     color: #0083ED !important;
     font-size: 1.15em !important;
     font-family: 'Fira Sans', sans-serif !important;
