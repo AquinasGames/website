@@ -35,6 +35,17 @@ hr {
   text-shadow: 1px 1px rgba(37,41,52,0.75);
 }
 
+#mc_embed_signup p {
+  margin-bottom: 1em;
+}
+
+#page-content h4 {
+  color: #0083ED;
+  line-height: 1em;
+  font-family: 'Pixel', sans-serif;
+  text-shadow: 1px 1px rgba(37,41,52,0.75);
+}
+
 #page-content p {
   text-align: justify;
 }
@@ -48,9 +59,13 @@ hr {
   text-shadow: 1px 1px rgba(37,41,52,0.1);
 }
 
-#page-content p:last-of-type {
+/* #page-content p:last-of-type {
   margin-bottom: 0;
   padding-bottom: 0;
+} */
+
+#mc-embedded-subscribe-form {
+  margin-bottom: 1em;
 }
 
 #page-content li {
