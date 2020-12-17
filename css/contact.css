@@ -91,6 +91,7 @@
 }
 
 #mc-embedded-subscribe {
+    height: 100%;
     padding: 0.25em !important;
     color: #0083ED !important;
     font-size: 1.15em !important;
