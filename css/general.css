@@ -10,6 +10,10 @@ html {
   background-color: white;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 hr {
   border: 1px dotted #0083ED;
 }
@@ -111,6 +115,11 @@ hr {
 .photo-gallery li {
   padding-left: 0;
   /* flex-basis: 33.333333% */
+}
+
+.commento-logo-container {
+  display: none;
+  visibility: hidden;
 }
 
 @media screen and (max-width: 500px) {
