@@ -107,4 +107,8 @@
         /* Space Between Buttons On Small Screens */
         max-width: calc(50vw - 2em - 1em);
     }
+
+    #mc_embed_signup input.email {
+        width: 50% !important;
+    }
 }
