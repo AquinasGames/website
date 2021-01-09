@@ -133,4 +133,16 @@ ul {
     #page-content {
         margin: auto 1em;
     }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    #footer {
+        display: block;
+    }
 }
