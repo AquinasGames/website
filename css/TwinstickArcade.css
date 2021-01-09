@@ -1,0 +1,136 @@
+/* Styles for Twinstick Arcade site */
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+html {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/assets/TwinstickArcade/background.png");
+}
+
+#page-content {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'VT323', monospace;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+h1 {
+    font-size: 4em;
+    color: #92b30f;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 2em;
+    color: #5e881f;
+    letter-spacing: 5px;
+}
+
+ul {
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+}
+
+#gif-showcase {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em auto 2em auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+#gif-showcase img {
+    width: 50%;
+}
+
+#description {
+    font-size: 2em;
+    color: #8bac0f;
+    margin-bottom: 1.5em;
+    font-family: 'VT323', monospace;
+}
+
+#footer {
+    display: flex;
+    font-size: 1.5em;
+    padding-top: 1em;
+    color: #8bac0f;
+    margin-bottom: 2em;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'VT323', monospace;
+    border-top: dashed #8bac0f 1px;
+}
+
+#footer a {
+    color: #5e881f;
+}
+
+#footer a:hover, #footer a:active {
+    color: #8bac0f;
+}
+
+/* Mailing List */
+
+#mc_embed_signup_scroll {
+    gap: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#mailing-list input.email {
+    width: 100% !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+#mce-EMAIL {
+    width: 100% !important;
+    padding: 0.25em !important;
+    text-align: center;
+    color: #535C4B !important;
+    font-size: 1.5em !important;
+    border-radius: 5px !important;
+    box-sizing: border-box !important;
+    border: #5e881f 1px solid !important;
+    font-family: 'VT323', monospace !important;
+}
+
+#mailchimp {
+    display: flex;
+    justify-content: space-between;
+}
+
+#mc-embedded-subscribe {
+    height: 100%;
+    color: #1a4312 !important;
+    font-size: 1.5em !important;
+    font-size: 1.15em !important;
+    border-radius: 5px !important;
+    padding: 0.25em 1.5em !important;
+    border: #5e881f 1px solid !important;
+    font-family: 'VT323', monospace !important;
+}
+
+#mc-embedded-subscribe:hover {
+    cursor: pointer;
+    border-radius: 5px !important;
+    background-color: #487627 !important;
+}
+
+/* Mobile Devices */
+
+@media screen and (max-width: 800px) {
+    #gif-showcase img {
+        width: 100%;
+    }
+
+    #page-content {
+        margin: auto 1em;
+    }
+}
