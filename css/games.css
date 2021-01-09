@@ -1,6 +1,7 @@
 /* Games Section */
 
 #games-list-container {
+    gap: 1px;
     display: flex;
     justify-content: space-between;
 } 
