@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -19,9 +22,6 @@
         <meta property="og:image" content="assets/TwinstickArcade/gif-1.GIF"/>
         <link rel="shortcut icon" type="image/png" href="assets/TwinstickArcade/favicon.ico"/>
     
-        <!-- All JS Scripts -->
-        <script src="/js/scripts.js"></script> 
-
         <!-- All CSS Stylesheets -->
         <link rel="stylesheet" href="/css/normalize.css">
         <link rel="stylesheet" href="/css/TwinstickArcade.css">
@@ -42,10 +42,10 @@
             </form>
             </div>
             <div id="gif-showcase">
-                <img src="assets/TwinstickArcade/gif-1.GIF" alt="">
-                <img src="assets/TwinstickArcade/gif-2.GIF" alt="">
-                <img src="assets/TwinstickArcade/gif-3.GIF" alt="">
-                <img src="assets/TwinstickArcade/gif-4.GIF" alt="">
+                <img src="/assets/TwinstickArcade/gif-1.GIF">
+                <img src="/assets/TwinstickArcade/gif-2.GIF">
+                <img src="/assets/TwinstickArcade/gif-3.GIF">
+                <img src="/assets/TwinstickArcade/gif-4.GIF">
             </div>
             <div id="description">
                 <b>[COMING SOON]</b> 
@@ -56,6 +56,15 @@
                     <li>Dozens of unique combat challenges!</li>
                     <li>Maze-like stages to explore & secrets galore!</li>
                 </ul>
+            </div>
+            <div id="blog">
+                {% for post in site.posts reversed %}
+                    {% if post.path contains 'TwinstickArcade' %}
+                        <article>
+                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        </article>
+                    {% endif %}
+                {% endfor %}
             </div>
             <div id="footer">
                 <p>&copy; 2020-21 Aquinas Games</p>

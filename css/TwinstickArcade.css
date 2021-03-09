@@ -123,6 +123,20 @@ ul {
     background-color: #487627 !important;
 }
 
+#blog {
+    padding-top: 3em;
+    margin-bottom: 4em;
+    border-top: dashed #8bac0f 1px;
+}
+
+#blog a {
+    color: #8bac0f;
+}
+
+#blog a:hover, #blog a:active {
+    color: #5e881f;
+}
+
 /* Mobile Devices */
 
 @media screen and (max-width: 800px) {
