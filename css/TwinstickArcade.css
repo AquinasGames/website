@@ -38,6 +38,26 @@ ul {
     margin-bottom: 0em;
 }
 
+#blog-content p {
+    font-size: 1.7em;
+    color: #8bac0f;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+    font-family: 'VT323', monospace;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+#blog-content img {
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+#blog-container {
+    background-image: none !important;
+    background-color: #0f380f !important;
+}
+
 #gif-showcase {
     display: flex;
     flex-wrap: wrap;
@@ -56,6 +76,21 @@ ul {
     font-family: 'VT323', monospace;
 }
 
+#return-bar {
+    display: flex;
+    font-size: 1.5em;
+    color: #8bac0f;
+    margin-bottom: 2em;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'VT323', monospace;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.dark {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
 #footer {
     display: flex;
     font-size: 1.5em;
@@ -68,11 +103,12 @@ ul {
     border-top: dashed #8bac0f 1px;
 }
 
-#footer a {
+#footer a, #return-bar a {
     color: #5e881f;
 }
 
-#footer a:hover, #footer a:active {
+#footer a:hover, #footer a:active,
+#return-bar a:hover, #return-bar a:active {
     color: #8bac0f;
 }
 
@@ -124,7 +160,7 @@ ul {
 }
 
 #blog {
-    padding-top: 3em;
+    padding-top: 4em;
     margin-bottom: 4em;
     border-top: dashed #8bac0f 1px;
 }
@@ -135,6 +171,10 @@ ul {
 
 #blog a:hover, #blog a:active {
     color: #5e881f;
+}
+
+#return-bar {
+    border-bottom: dashed #8bac0f 1px;
 }
 
 /* Mobile Devices */

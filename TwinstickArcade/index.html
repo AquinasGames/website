@@ -19,8 +19,8 @@
         <meta property="og:keywords" content="twinstick arcade, aquinas games, michael bassili, 2d shooter, retro shooter"/>
         <meta property="og:description" content=" Blast and dash through in a gorgeous retro 2D world! Explore intricate worlds, fight creative enemies, and collect as many coins as possible. " />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta property="og:image" content="assets/TwinstickArcade/gif-1.GIF"/>
-        <link rel="shortcut icon" type="image/png" href="assets/TwinstickArcade/favicon.ico"/>
+        <meta property="og:image" content="/assets/TwinstickArcade/gif-1.GIF"/>
+        <link rel="shortcut icon" type="image/png" href="/assets/TwinstickArcade/favicon.ico"/>
     
         <!-- All CSS Stylesheets -->
         <link rel="stylesheet" href="/css/normalize.css">
@@ -66,12 +66,7 @@
                     {% endif %}
                 {% endfor %}
             </div>
-            <div id="footer">
-                <p>&copy; 2020-21 Aquinas Games</p>
-                <a target="_blank" href="https://twitter.com/AquinasGames">twitter</a>
-                <a target="_blank" href="/">aquinas games</a>
-                <a target="_blank" href="https://github.com/AquinasGames">github</a>
-            </div>
+            {% include TwinstickArcadeFooter.html %}
         </div>
     </body>
 </html>
