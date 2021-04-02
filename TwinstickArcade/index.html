@@ -26,6 +26,9 @@ title: Home
         <!-- All CSS Stylesheets -->
         <link rel="stylesheet" href="/css/normalize.css">
         <link rel="stylesheet" href="/css/TwinstickArcade.css">
+
+        <!-- Font Awesome Icons -->
+        <script src="https://kit.fontawesome.com/45f8ee0a76.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div id="page-content">
@@ -43,26 +46,28 @@ title: Home
             </form>
             </div>
             <div id="gif-showcase">
-                <img src="/assets/TwinstickArcade/gif-1.GIF">
                 <img src="/assets/TwinstickArcade/gif-2.GIF">
+                <img src="/assets/TwinstickArcade/gif-1.GIF">
                 <img src="/assets/TwinstickArcade/gif-3.GIF">
                 <img src="/assets/TwinstickArcade/gif-4.GIF">
             </div>
             <div id="description">
-                <b>[COMING SOON]</b> 
-                    Blast and dash through in a gorgeous retro 2D world! 
-                    Explore and fight your way out of the arcade machine. 
-                    Speedrun through tight combat encounters. 
-                    Improve your high-scores. 
-                    And most of all: tolerate the colour green.                
-                    <ul>
-                        <li>Three thrilling campaigns chock-full of action!</li>
-                        <li>Dozens of unique combat challenges!</li>
-                        <li>Maze-like stages to explore & secrets galore!</li>
-                    </ul>
-                    Speedrun timers help you improve your best time. 
-                    Boss rush modes let you relive the challenge without the exploration. 
-                    Endless mode throws wave after wave at you to see how long you can last.
+                <div id="steam-link">
+                    <a target="_blank" href="https://store.steampowered.com/app/1488150/Twinstick_Arcade/">WISHLIST ON STEAM <sup><i class="fas fa-external-link-alt fa-xs"></i></sup></a> 
+                </div>
+                Blast and dash through in a gorgeous retro 2D world! 
+                Explore and fight your way out of the arcade machine. 
+                Speedrun through tight combat encounters. 
+                Improve your high-scores. 
+                And most of all: tolerate the colour green.                
+                <ul>
+                    <li>Three thrilling campaigns chock-full of action!</li>
+                    <li>Dozens of unique combat challenges!</li>
+                    <li>Maze-like stages to explore & secrets galore!</li>
+                </ul>
+                Speedrun timers help you improve your best time. 
+                Boss rush modes let you relive the challenge without the exploration. 
+                Endless mode throws wave after wave at you to see how long you can last.
             </div>
             <div id="blog">
                 {% for post in site.posts reversed %}
