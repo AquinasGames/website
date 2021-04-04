@@ -132,6 +132,10 @@ ul {
     color: #5e881f;
 }
 
+#no-underline {
+    text-decoration: none !important;
+}
+
 #footer a:hover, #footer a:active,
 #return-bar a:hover, #return-bar a:active {
     color: #8bac0f;
