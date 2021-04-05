@@ -66,7 +66,6 @@ ul {
     color: #8bac0f;
     font-weight: bold;
     text-decoration: none;
-    padding: 0.5em 1em;
 }
 
 #steam-link a:hover,
@@ -227,5 +226,9 @@ ul {
 
     #footer {
         display: block;
+    }
+
+    #steam-link {
+        font-size: 1em;
     }
 }
