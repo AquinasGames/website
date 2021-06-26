@@ -48,6 +48,7 @@
 }
 
 #title-word-container span a {
+    transition: 0.1s;
     color: #0083ED;
     text-decoration: none;
 }

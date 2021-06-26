@@ -5,6 +5,11 @@
     background: #ffb7b7; /* WebKit/Blink Browsers */
   }
 
+#landing-page-container {
+  background-image: url("/assets/cream.png");
+  background-repeat: repeat;
+}
+
 html {
   scroll-behavior: smooth;
   background-color: white;

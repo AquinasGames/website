@@ -15,6 +15,7 @@
 }
 
 #footer a {
+    transition: 0.1s;
     color: #0083ED;
     text-align: center;
     align-self: center;
