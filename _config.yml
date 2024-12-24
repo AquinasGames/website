@@ -1,17 +1,17 @@
-markdown:    kramdown
-exclude:     ['README.md', vendor]
-username:    AquinasGames
-repo:        AquinasGames.github.io
-branch:      master
-title:       Aquinas Games
-author:      Aquinas Games
-url:         https://aquinasgames.ca
-keywords:    "Aquinas Games, aquinas, games, canada games, aquinas games, indie games aquinas, aq games"
+markdown: kramdown
+exclude: ["README.md", vendor]
+username: AquinasGames
+repo: AquinasGames.github.io
+branch: master
+title: Aquinas Games Test
+author: Aquinas Games
+url: https://aquinasgames.ca
+keywords: "Aquinas Games, aquinas, games, canada games, aquinas games, indie games aquinas, aq games"
 description: "Canadian video game company, focused on creating dense, feature-rich gaming experiences. If it's not fun, why bother."
-source:      .
+source: .
 destination: _site
 highlighter: rouge
-linenos:     true
+linenos: true
 
 plugins:
   - jekyll-feed
@@ -33,7 +33,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-    css_class: 'highlight'
+    css_class: "highlight"
     span:
       line_numbers: false
     block:

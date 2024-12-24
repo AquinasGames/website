@@ -4,80 +4,79 @@ title: Home
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Twinstick Arcade - welcome to retro 2D shooting action</title>
-        <meta name="language" content="en">
-        <meta name="theme-color" content="#0f380f">
-        <meta name="revisit-after" content="7 days">
-        <meta name="robots" content="index, follow">
-        <meta property="og:type" content="website"/>
-        <meta name="title" content="[Twinstick Arcade]">
-        <meta property="og:url" content="https://aquinasgames.ca/TwinstickArcade"/>
-        <meta property="og:title" content="[Twinstick Arcade]">
-        <meta name="keywords" content="twinstick arcade, aquinas games, michael bassili, 2d shooter, retro shooter"/>
-        <meta name="description" content=" Blast and dash through in a gorgeous retro 2D world! Explore intricate worlds, fight creative enemies, and collect as many coins as possible. ">
-        <meta property="og:keywords" content="twinstick arcade, aquinas games, michael bassili, 2d shooter, retro shooter"/>
-        <meta property="og:description" content=" Blast and dash through in a gorgeous retro 2D world! Explore intricate worlds, fight creative enemies, and collect as many coins as possible. " />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta property="og:image" content="/assets/TwinstickArcade/gif-compressed-2.GIF"/>
-        <link rel="shortcut icon" type="image/png" href="/assets/TwinstickArcade/favicon.ico"/>
-    
-        <!-- All CSS Stylesheets -->
-        <link rel="stylesheet" href="/css/normalize.css">
-        <link rel="stylesheet" href="/css/TwinstickArcade.css">
 
-        <!-- Font Awesome Icons -->
-        <script src="https://kit.fontawesome.com/45f8ee0a76.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div id="page-content">
-            <h1>[Twinstick Arcade]</h1>
-            <h2>welcome to retro 2D shooting action</h2>
-            <div id="mailing-list">
-                <form action="https://aquinasgames.us2.list-manage.com/subscribe/post?u=c0bcb8f065abc8bea73a9bb06&amp;id=f255b655b2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Subscribe To Our Mailing List" required>
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c0bcb8f065abc8bea73a9bb06_f255b655b2" tabindex="-1" value=""></div>
-                    <div class="clear contact-form-buttons">
-                        <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">Subscribe</button>
-                    </div>
-                    </div>
-            </form>
-            </div>
-            <div id="gif-showcase">
-                <img src="/assets/TwinstickArcade/gif-2.GIF">
-                <img src="/assets/TwinstickArcade/gif-1.GIF">
-                <img src="/assets/TwinstickArcade/gif-3.GIF">
-                <img src="/assets/TwinstickArcade/gif-4.GIF">
-            </div>
-            <div id="description">
-                <div id="steam-link">
-                    <a target="_blank" href="https://store.steampowered.com/app/1488150/Twinstick_Arcade/">BUY ON STEAM <sup><i class="fas fa-external-link-alt fa-xs"></i></sup></a> 
-                </div>
-                Blast and dash through in a gorgeous retro 2D world! 
-                Explore and fight your way out of the arcade machine. 
-                Speedrun through tight combat encounters. 
-                Improve your high-scores. 
-                And most of all: tolerate the colour green.                
-                <ul>
-                    <li>Seven intricate maze-like levels to explore!</li>
-                    <li>Dozens of unique combat encounters!</li>
-                    <li>Take on challenging enemies as you fight your way out!</li>
-                </ul>
-                Endless mode throws wave after wave at you to see how long you can last.
-                Play hard! Escape from the arcade machine!
-            </div>
-            <div id="blog">
-                {% for post in site.posts reversed %}
-                    {% if post.path contains 'TwinstickArcade' %}
-                        <article>
-                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                        </article>
-                    {% endif %}
-                {% endfor %}
-            </div>
-            {% include TwinstickArcadeFooter.html %}
+<head>
+    <meta charset="utf-8">
+    <title>Twinstick Arcade - Welcome To Retro 2D Shooting Action</title>
+    <meta name="language" content="en">
+    <meta name="theme-color" content="#0f380f">
+    <meta name="revisit-after" content="7 days">
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="website" />
+    <meta name="title" content="[Twinstick Arcade]">
+    <meta property="og:url" content="https://aquinasgames.ca/TwinstickArcade" />
+    <meta property="og:title" content="[Twinstick Arcade]">
+    <meta name="keywords" content="twinstick arcade, aquinas games, michael bassili, 2d shooter, retro shooter" />
+    <meta name="description"
+        content=" Blast and dash through in a gorgeous retro 2D world! Explore intricate worlds, fight creative enemies, and collect as many coins as possible. ">
+    <meta property="og:keywords"
+        content="twinstick arcade, aquinas games, michael bassili, 2d shooter, retro shooter" />
+    <meta property="og:description"
+        content=" Blast and dash through in a gorgeous retro 2D world! Explore intricate worlds, fight creative enemies, and collect as many coins as possible. " />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="/assets/TwinstickArcade/gif-compressed-2.GIF" />
+    <link rel="shortcut icon" type="image/png" href="/assets/TwinstickArcade/favicon.ico" />
+
+    <!-- All CSS Stylesheets -->
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/TwinstickArcade.css">
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/45f8ee0a76.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="page-content">
+        <h1>[Twinstick Arcade]</h1>
+        <h2>Welcome To Retro 2D Shooting Action</h2>
+        <div id="gif-showcase">
+            <img src="/assets/TwinstickArcade/gif-2.GIF">
+            <img src="/assets/TwinstickArcade/gif-1.GIF">
+            <img src="/assets/TwinstickArcade/gif-3.GIF">
+            <img src="/assets/TwinstickArcade/gif-4.GIF">
         </div>
-    </body>
+        <div id="description">
+            <div id="steam-link">
+                <a target="_blank" href="https://store.steampowered.com/app/1488150/Twinstick_Arcade/">BUY ON STEAM
+                    <sup><i class="fas fa-external-link-alt fa-xs"></i></sup></a>
+            </div>
+            Blast and dash through in a gorgeous retro 2D world!
+            Explore and fight your way out of the arcade machine.
+            Speedrun through tight combat encounters.
+            Improve your high-scores.
+            And most of all: tolerate the colour green.
+            <ul>
+                <li>Seven intricate maze-like levels to explore!</li>
+                <li>Dozens of unique combat encounters!</li>
+                <li>Take on challenging enemies as you fight your way out!</li>
+            </ul>
+            Endless mode throws wave after wave at you to see how long you can last.
+            Play hard! Escape from the arcade machine!
+        </div>
+        <div id="blog">
+            {% for post in site.posts reversed %}
+            {% if post.path contains 'TwinstickArcade' %}
+            <article>
+                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            </article>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div id="footer">
+            <p>&copy; 2020-21 Aquinas Games, All Rights Reserved</p>
+            <a target="_blank" href="/">aquinas games<sup><i class="fas fa-external-link-alt fa-xs"></i></sup></a>
+        </div>
+    </div>
+</body>
+
 </html>

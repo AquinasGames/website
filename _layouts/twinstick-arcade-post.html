@@ -3,18 +3,24 @@
 
 <!DOCTYPE html>
 <html lang="en" id="blog-container">
-    {% include TwinstickArcadeHead.html %}
-    <body>
-        <div id="page-content">
-            <div id="return-bar">
-                <a href="/TwinstickArcade">Return Home</a>
-                <a target="_blank" href="https://store.steampowered.com/app/1488150/Twinstick_Arcade/">Buy On Steam<sup><i class="fas fa-external-link-alt fa-xs"></i></sup></a> 
-                <p>{{ page.date | date: "%-d %B %Y" }}</p>
-            </div>
-            <div id="blog-content">
-                {{ content }}
-            </div>
-            {% include TwinstickArcadeFooterDark.html %}
+{% include TwinstickArcadeHead.html %}
+
+<body>
+    <div id="page-content">
+        <div id="return-bar">
+            <a href="/TwinstickArcade">Return Home</a>
+            <a target="_blank" href="https://store.steampowered.com/app/1488150/Twinstick_Arcade/">Buy On Steam<sup><i
+                        class="fas fa-external-link-alt fa-xs"></i></sup></a>
+            <p>{{ page.date | date: "%-d %B %Y" }}</p>
         </div>
-    </body>
+        <div id="blog-content">
+            {{ content }}
+        </div>
+        <div id="footer">
+            <p>&copy; 2020-21 Aquinas Games</p>
+            <a target="_blank" href="/">aquinas games<sup><i class="fas fa-external-link-alt fa-xs"></i></sup></a>
+        </div>
+    </div>
+</body>
+
 </html>
